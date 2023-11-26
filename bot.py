@@ -3,8 +3,9 @@ import telebot
 from telebot import types
 import pandas as pd
 import natsort
+from TOKEN import TOKEN
 
-TOKEN = '6914440609:AAFLB-shK3_pCMS_IAFNxYw3AN3BG4Q4nWc'
+TOKEN = TOKEN
 
 IMAGE_FOLDER = 'test_images'
 bot = telebot.TeleBot(TOKEN)
